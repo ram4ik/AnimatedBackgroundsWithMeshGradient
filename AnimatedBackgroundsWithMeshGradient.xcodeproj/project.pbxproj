@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DAD8A852C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD8A842C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradientApp.swift */; };
+		1DAD8A872C1CA7EC00243BB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD8A862C1CA7EC00243BB6 /* ContentView.swift */; };
+		1DAD8A892C1CA7EF00243BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAD8A882C1CA7EF00243BB6 /* Assets.xcassets */; };
+		1DAD8A8C2C1CA7EF00243BB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAD8A8B2C1CA7EF00243BB6 /* Preview Assets.xcassets */; };
+		1DAD8A962C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD8A952C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.swift */; };
+		1DAD8AA02C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD8A9F2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.swift */; };
+		1DAD8AA22C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD8AA12C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAD8A922C1CA7EF00243BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DAD8A792C1CA7EC00243BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAD8A802C1CA7EC00243BB6;
+			remoteInfo = AnimatedBackgroundsWithMeshGradient;
+		};
+		1DAD8A9C2C1CA7EF00243BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DAD8A792C1CA7EC00243BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAD8A802C1CA7EC00243BB6;
+			remoteInfo = AnimatedBackgroundsWithMeshGradient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DAD8A812C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedBackgroundsWithMeshGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD8A842C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundsWithMeshGradientApp.swift; sourceTree = "<group>"; };
+		1DAD8A862C1CA7EC00243BB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DAD8A882C1CA7EF00243BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DAD8A8B2C1CA7EF00243BB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DAD8A912C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBackgroundsWithMeshGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD8A952C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundsWithMeshGradientTests.swift; sourceTree = "<group>"; };
+		1DAD8A9B2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBackgroundsWithMeshGradientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD8A9F2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundsWithMeshGradientUITests.swift; sourceTree = "<group>"; };
+		1DAD8AA12C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DAD8A7E2C1CA7EC00243BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A8E2C1CA7EF00243BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A982C1CA7EF00243BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DAD8A782C1CA7EC00243BB6 = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A832C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */,
+				1DAD8A942C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests */,
+				1DAD8A9E2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests */,
+				1DAD8A822C1CA7EC00243BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DAD8A822C1CA7EC00243BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A812C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient.app */,
+				1DAD8A912C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.xctest */,
+				1DAD8A9B2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DAD8A832C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A842C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradientApp.swift */,
+				1DAD8A862C1CA7EC00243BB6 /* ContentView.swift */,
+				1DAD8A882C1CA7EF00243BB6 /* Assets.xcassets */,
+				1DAD8A8A2C1CA7EF00243BB6 /* Preview Content */,
+			);
+			path = AnimatedBackgroundsWithMeshGradient;
+			sourceTree = "<group>";
+		};
+		1DAD8A8A2C1CA7EF00243BB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A8B2C1CA7EF00243BB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DAD8A942C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A952C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.swift */,
+			);
+			path = AnimatedBackgroundsWithMeshGradientTests;
+			sourceTree = "<group>";
+		};
+		1DAD8A9E2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD8A9F2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.swift */,
+				1DAD8AA12C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift */,
+			);
+			path = AnimatedBackgroundsWithMeshGradientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DAD8A802C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAD8AA52C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradient" */;
+			buildPhases = (
+				1DAD8A7D2C1CA7EC00243BB6 /* Sources */,
+				1DAD8A7E2C1CA7EC00243BB6 /* Frameworks */,
+				1DAD8A7F2C1CA7EC00243BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedBackgroundsWithMeshGradient;
+			productName = AnimatedBackgroundsWithMeshGradient;
+			productReference = 1DAD8A812C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DAD8A902C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAD8AA82C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradientTests" */;
+			buildPhases = (
+				1DAD8A8D2C1CA7EF00243BB6 /* Sources */,
+				1DAD8A8E2C1CA7EF00243BB6 /* Frameworks */,
+				1DAD8A8F2C1CA7EF00243BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAD8A932C1CA7EF00243BB6 /* PBXTargetDependency */,
+			);
+			name = AnimatedBackgroundsWithMeshGradientTests;
+			productName = AnimatedBackgroundsWithMeshGradientTests;
+			productReference = 1DAD8A912C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DAD8A9A2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAD8AAB2C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradientUITests" */;
+			buildPhases = (
+				1DAD8A972C1CA7EF00243BB6 /* Sources */,
+				1DAD8A982C1CA7EF00243BB6 /* Frameworks */,
+				1DAD8A992C1CA7EF00243BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAD8A9D2C1CA7EF00243BB6 /* PBXTargetDependency */,
+			);
+			name = AnimatedBackgroundsWithMeshGradientUITests;
+			productName = AnimatedBackgroundsWithMeshGradientUITests;
+			productReference = 1DAD8A9B2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DAD8A792C1CA7EC00243BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1DAD8A802C1CA7EC00243BB6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1DAD8A902C1CA7EF00243BB6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1DAD8A802C1CA7EC00243BB6;
+					};
+					1DAD8A9A2C1CA7EF00243BB6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1DAD8A802C1CA7EC00243BB6;
+					};
+				};
+			};
+			buildConfigurationList = 1DAD8A7C2C1CA7EC00243BB6 /* Build configuration list for PBXProject "AnimatedBackgroundsWithMeshGradient" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DAD8A782C1CA7EC00243BB6;
+			productRefGroup = 1DAD8A822C1CA7EC00243BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DAD8A802C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */,
+				1DAD8A902C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests */,
+				1DAD8A9A2C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DAD8A7F2C1CA7EC00243BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAD8A8C2C1CA7EF00243BB6 /* Preview Assets.xcassets in Resources */,
+				1DAD8A892C1CA7EF00243BB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A8F2C1CA7EF00243BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A992C1CA7EF00243BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DAD8A7D2C1CA7EC00243BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAD8A872C1CA7EC00243BB6 /* ContentView.swift in Sources */,
+				1DAD8A852C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A8D2C1CA7EF00243BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAD8A962C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAD8A972C1CA7EF00243BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAD8AA22C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITestsLaunchTests.swift in Sources */,
+				1DAD8AA02C1CA7EF00243BB6 /* AnimatedBackgroundsWithMeshGradientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DAD8A932C1CA7EF00243BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAD8A802C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */;
+			targetProxy = 1DAD8A922C1CA7EF00243BB6 /* PBXContainerItemProxy */;
+		};
+		1DAD8A9D2C1CA7EF00243BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAD8A802C1CA7EC00243BB6 /* AnimatedBackgroundsWithMeshGradient */;
+			targetProxy = 1DAD8A9C2C1CA7EF00243BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DAD8AA32C1CA7EF00243BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DAD8AA42C1CA7EF00243BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DAD8AA62C1CA7EF00243BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedBackgroundsWithMeshGradient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DAD8AA72C1CA7EF00243BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedBackgroundsWithMeshGradient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DAD8AA92C1CA7EF00243BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedBackgroundsWithMeshGradient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedBackgroundsWithMeshGradient";
+			};
+			name = Debug;
+		};
+		1DAD8AAA2C1CA7EF00243BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedBackgroundsWithMeshGradient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedBackgroundsWithMeshGradient";
+			};
+			name = Release;
+		};
+		1DAD8AAC2C1CA7EF00243BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedBackgroundsWithMeshGradient;
+			};
+			name = Debug;
+		};
+		1DAD8AAD2C1CA7EF00243BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AnimatedBackgroundsWithMeshGradientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedBackgroundsWithMeshGradient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DAD8A7C2C1CA7EC00243BB6 /* Build configuration list for PBXProject "AnimatedBackgroundsWithMeshGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAD8AA32C1CA7EF00243BB6 /* Debug */,
+				1DAD8AA42C1CA7EF00243BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAD8AA52C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAD8AA62C1CA7EF00243BB6 /* Debug */,
+				1DAD8AA72C1CA7EF00243BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAD8AA82C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAD8AA92C1CA7EF00243BB6 /* Debug */,
+				1DAD8AAA2C1CA7EF00243BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAD8AAB2C1CA7EF00243BB6 /* Build configuration list for PBXNativeTarget "AnimatedBackgroundsWithMeshGradientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAD8AAC2C1CA7EF00243BB6 /* Debug */,
+				1DAD8AAD2C1CA7EF00243BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DAD8A792C1CA7EC00243BB6 /* Project object */;
+}
